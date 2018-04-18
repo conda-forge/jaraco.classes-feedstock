@@ -3,7 +3,6 @@
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "e347f2b502521bfc35c57ab4695e8b6d7371625c392a0ca0d46742ee93359d3e" %}
-{% set build = 0 %}
 
 package:
   name: {{ name|lower }}
@@ -11,18 +10,18 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
   noarch: python
-
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+  
 requirements:
   build:
     - python
-    - setuptools
+    - pip
     - setuptools_scm >=1.15.0
 
   run:
