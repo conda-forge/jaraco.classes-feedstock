@@ -14,12 +14,15 @@ Summary: jaraco.classes
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jaraco.classes-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jaraco.classes-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jaraco.classes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jaraco.classes-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jaraco.classes/badges/version.svg)](https://anaconda.org/conda-forge/jaraco.classes)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jaraco.classes/badges/downloads.svg)](https://anaconda.org/conda-forge/jaraco.classes)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jaraco.classes-green.svg)](https://anaconda.org/conda-forge/jaraco.classes) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jaraco.classes.svg)](https://anaconda.org/conda-forge/jaraco.classes) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jaraco.classes.svg)](https://anaconda.org/conda-forge/jaraco.classes) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jaraco.classes.svg)](https://anaconda.org/conda-forge/jaraco.classes) |
 
 Installing jaraco.classes
 =========================

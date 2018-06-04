@@ -1,8 +1,8 @@
 {% set name = "jaraco.classes" %}
-{% set version = "1.4.3" %}
+{% set version = "1.5" %}
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "e347f2b502521bfc35c57ab4695e8b6d7371625c392a0ca0d46742ee93359d3e" %}
+{% set hash = "d101c45efd518a3ed76409a23ad2319bafeda13c3252395fe4d8ec195dd45f00" %}
 
 package:
   name: {{ name|lower }}
