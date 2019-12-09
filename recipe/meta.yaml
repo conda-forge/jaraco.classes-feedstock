@@ -30,9 +30,9 @@ test:
 
 about:
   home: https://github.com/jaraco/jaraco.classes
-  # license_file: jaraco doesn't include license files - see https://github.com/jaraco/skeleton/issues/1
   license: MIT
   license_family: MIT
+  license_file: LICENSE
   summary: 'jaraco.classes'
   dev_url: https://github.com/jaraco/jaraco.classes
 
