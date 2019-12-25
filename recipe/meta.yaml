@@ -21,7 +21,7 @@ requirements:
     - setuptools_scm >=1.15.0
   run:
     - python >=3.6
-    - more_itertools
+    - more-itertools
 
 test:
   imports:
