@@ -1,5 +1,5 @@
 {% set name = "jaraco.classes" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c38698ff8ef932eb33d91c0e8fc192ad7c44ecee03f7f585afd4f35aeaef7aab
+  sha256: 24ec75e16d91bbae0fe89312c5cbbe4b2407d40629dc80463653d23868965c5c
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
-  
+  script: {{ PYTHON }} -m pip install . -vv
 requirements:
   host:
     - python >=3.6
@@ -33,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'jaraco.classes'
+  summary: jaraco.classes
   dev_url: https://github.com/jaraco/jaraco.classes
 
 extra:
