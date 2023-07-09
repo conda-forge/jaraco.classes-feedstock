@@ -1,11 +1,11 @@
-About jaraco.classes
-====================
+About jaraco.classes-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jaraco.classes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jaraco/jaraco.classes
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jaraco.classes-feedstock/blob/main/LICENSE.txt)
 
 Summary: jaraco.classes
 
