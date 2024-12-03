@@ -11,16 +11,16 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools >=56
     - setuptools_scm >=3.4.1
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - more-itertools
 
 test:
@@ -31,6 +31,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/jaraco/jaraco.classes
